@@ -1,0 +1,5 @@
+---
+userId: "prometheus"
+groupId: "prometheus"
+version: "2.45.0"
+port: 9090
