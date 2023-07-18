@@ -41,16 +41,18 @@
 <details open>
 <summary><b>Table of Contents</b></summary>
 
-- [Getting Started](#getting-started)
+- [Getting Started](#toolbox-getting-started)
   - [System Requirements](#system-requirements)
-- [Developer Guide](#developer-guide)
+- [Roles](#ghost-roles)
+- [Developer Guide](#technologist-developer-guide)
   - [Create a new role](#create-a-new-role)
   - [Test new role](#test-new-role)
-- [:busts_in_silhouette: Contributors](#busts_in_silhouette-contributors)
-- [:scroll: License](#scroll-license)
+- [Contributors](#busts_in_silhouette-contributors)
+- [Credits](#sparkles-credits)
+- [License](#scroll-license)
 </details>
 
-# Getting Started
+# :toolbox: Getting Started
 
 ## System Requirements
 
@@ -61,7 +63,17 @@ These roles have only been tested with:
 
 Each role contains a `README` describing its usage.
 
-# Developer Guide
+# :ghost: Roles
+
+**G**  
+└─ [Grafana](https://github.com/QuanBlue/ansible-roles/tree/master/grafana)  
+**N**  
+├─ [Node Exporter](https://github.com/QuanBlue/ansible-roles/tree/master/node_exporter/)  
+└─ [NodeJS](https://github.com/QuanBlue/ansible-roles/tree/master/nodejs/)  
+**P**  
+└─ [Prometheus](https://github.com/QuanBlue/ansible-roles/tree/master/prometheus/)
+
+# :technologist: Developer Guide
 
 ## Create a new role
 
@@ -122,6 +134,16 @@ ansible-playbook -i <rolename>/tests/inventory <rolename>/tests/test.yml --conne
 </a>
 
 Contributions to this repository are always welcome! If you have any cheat sheets that you would.
+
+# :sparkles: Credits
+
+This software uses the following open source packages:
+
+- [Grafana](https://grafana.com/)
+- [Node Exporter](https://prometheus.io/docs/guides/node-exporter/)
+- [Node.js](https://nodejs.org/)
+- [Prometheus](https://prometheus.io/)
+- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
 
 # :scroll: License
 
